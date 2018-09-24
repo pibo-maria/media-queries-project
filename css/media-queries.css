@@ -1,0 +1,41 @@
+.alert-info {
+    background-color: rgb(201, 255, 255);
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid lightgrey;
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+}
+.alert-info>a{
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+.nav-links > li{
+    background-color: lightgrey;
+    text-align: center;
+    margin: .75em .25em;
+    padding: 1em;
+    font-size: 1.25em;
+}
+img{
+    width: 339px;
+    height: 224px;
+}
+
+
+
+
+
+
+
+@media  screen and (min-width: 500px) {
+
+}
