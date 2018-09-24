@@ -40,11 +40,22 @@ section>h2{
 section>p{
     font-size: 1.5em;
 }
+.media-icon {
+    width: 5%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+#social-media-links li{
+    display: inline-block;
+    /*text-align: right;*/
+}
 
 
 
 
-@media  screen and (min-width: 565px) {
+@media  screen and (min-width: 700px) {
     body{
         margin: auto 20px;
     }
@@ -55,6 +66,7 @@ section>p{
         text-align: left;
         float: left;
         margin: 0;
+        font-size: 3em;
     }
     h2{
         margin: 0;
