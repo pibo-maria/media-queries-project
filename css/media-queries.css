@@ -51,6 +51,20 @@ ul{
     display: inline-block;
     /*text-align: right;*/
 }
+#social-media-links {
+    /*float: right;*/
+    text-align: right;
+    /*display: inline-block;*/
+}
+.media-icon img{
+    width: 1.25em;
+    height: auto;
+}
+
+footer p{
+    position: relative;
+    top: 36px;
+}
 
 
 
@@ -91,6 +105,9 @@ ul{
         box-sizing: border-box;
         margin-left: 10px;
         font-style: italic;
+    }
+    .media-icon img{
+        all: unset;
     }
     footer{
         padding: 10em 0;
